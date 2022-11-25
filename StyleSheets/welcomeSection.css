@@ -1,0 +1,224 @@
+﻿body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 900;
+    font-size: 16px;
+    color: #019ea7;
+    background-color: rgb(84, 2, 77);
+}
+
+p {
+    width: 80%;
+}
+
+ul li {
+    list-style-type: circle;
+    line-height: 200%;
+}
+
+ol li {
+    list-style-type: numbers;
+    line-height: 180%;
+    width: 65%
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ec0707;
+    text-align: center;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    text-align: right;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+    text-align: left;
+    margin-top: 30px;
+}
+
+/*** Pseudo class selectors ***/
+
+a:link {
+    color: gray;
+    text-decoration: none;
+}
+
+a:visited {
+    color: gray;
+    background: red;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#centerDoc a:link {
+    color: gray;
+    text-decoration: underline;
+}
+
+#centerDoc a:hover {
+    color: blue;
+}
+
+/*** ID selectors ***/
+#centerDoc {
+    position: absolute;
+    z-index: 15;
+    padding: 0;
+    /*top right bottom left*/
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 80%;
+}
+
+#profilepic {
+    float: right;
+    margin: 10px;
+    margin-bottom: 50px;
+    margin-right: 20%;
+}
+
+.welcome-section {
+    background-image: url("https://w0.peakpx.com/wallpaper/231/776/HD-wallpaper-3d-red.jpg");
+    background-image: url("../images/sitsmile.jpg");
+    Background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    display: block;
+    position: relative;
+    float: left;
+}
+
+.img {
+    height: 40%;
+    width: 40%;
+}
+
+.welcome-section>p {
+    justify-content: center;
+    font-size: 4rem;
+    font-weight: 900;
+    font-style: italic;
+    color: cyan;
+    margin: 0;
+    padding-top: 2%;
+    text-shadow: 15px 30px 5px black;
+    display: flow;
+}
+
+.welcome-section>h1 {
+    justify-content: center;
+    color: lime;
+    text-shadow: 15px -60px 12px black;
+    display: flow;
+    flex-wrap: wrap;
+    position: relative;
+    font-size: 10em;
+}
+
+.welcome-section>header {
+    color: aqua;
+    font-weight: 900;
+    font-size: 25pt;
+}
+
+.welcome-section>h2 {
+    justify-content: center;
+    display: flow;
+    flex-wrap: wrap;
+    font-size: 5rem;
+    text-align: center;
+    color: black;
+    padding: 2%;
+    margin: auto;
+    text-shadow: 10px 9px 5px red;
+}
+
+.welcome-section>h3 {
+    font-size: 4rem;
+    text-align: center;
+    color: black;
+    padding: 1%;
+    margin: auto;
+    text-shadow: 3px 5px 10px lime;
+    justify-content: center;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.welcome-container {
+    width: 100%;
+    margin: 0px;
+    padding-bottom: 0%;
+    justify-content: center;
+    display: block;
+
+    flex-wrap: wrap;
+}
+
+/*>>>>>>>>>>>>>>>> Welcome-Section Nav Bar <<<<<<<<<<<<<<*/
+.navbar1 {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+ul.navbar1 li {
+    list-style: none;
+}
+
+ul.navbar1 {
+    background-color: black;
+    overflow: auto;
+    margin: auto;
+    padding: 4px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul.navbar1 li a {
+    display: block;
+    flex-wrap: wrap;
+    text-decoration: none;
+    font-size: 11pt;
+    text-align: center;
+    padding: 14px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    color: white;
+}
+
+ul.navbar1 li a:hover {
+    background-color: #0080ff;
+    color: red;
+}
+
+@media (max-width: 28.75em) {
+    .navbar1 {
+        justify-content: center;
+    }
+}
